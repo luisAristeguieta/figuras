@@ -9,9 +9,9 @@ public class TestFiguras {
 	public static void main(String[] args) {
 		// Valida los objetos figura, cuadrado, triangulo: 
 		
-		Figura figura = new Figura();
-		Cuadrado cuadrado = new Cuadrado();
-		Triangulo triangulo = new Triangulo();
+		Figura figura = new Figura("Ovalo","Rojo");
+		Cuadrado cuadrado = new Cuadrado("Perfecto","Verde");
+		Triangulo triangulo = new Triangulo("Equilatero","Azul");
 		
 		System.out.println(figura);
 		System.out.println(cuadrado);
