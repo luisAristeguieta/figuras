@@ -4,5 +4,7 @@ public class Graficador {
 	
 	public void graficar(Figura figura) {
 		System.out.println("Graficando " + figura.getNombre() + " de color " + figura.getColor());
+		int perimetro = figura.calcularPerimetro();
+		System.out.println("El valor del perimetro es: " + perimetro);
 	}
 }
