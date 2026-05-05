@@ -11,7 +11,7 @@ public class TestFiguras {
 		
 		Figura figura = new Figura("Ovalo","Rojo");
 		Cuadrado cuadrado = new Cuadrado("Perfecto","Verde",5);
-		Triangulo triangulo = new Triangulo("Equilatero","Azul");
+		Triangulo triangulo = new Triangulo("Equilatero","Azul",10,6);
 		
 		System.out.println(figura);
 		System.out.println(cuadrado);
